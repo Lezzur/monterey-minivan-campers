@@ -7,6 +7,6 @@ module.exports = {
   output: 'export',
   images: { unoptimized: true },
   basePath: usePrefix ? `/${repo}` : '',
-  assetPrefix: usePrefix ? `/${repo}/` : '',
+  assetPrefix: usePrefix ? `/${repo}` : '',
   trailingSlash: true,
 };
